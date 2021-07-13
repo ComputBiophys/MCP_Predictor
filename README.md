@@ -21,6 +21,5 @@ One of the unique traits of membrane proteins is that a significant fraction of 
 
 ## Server
 
-
-##References
+## References
 Wang, L.; Zhang, J.; Wang, D.; Song, C.* Lipid Contact Probability: An Essential and Predictive Character for the Structural and Functional Studies of Membrane Proteins. bioRxiv 2021, https://doi.org/10.1101/2021.01.17.426988
