@@ -56,4 +56,4 @@ The implementation is based on the projects:
 
 [4] https://github.com/soedinglab/CCMpred
 
-https://github.com/multicom-toolbox/DNCON2/
+[5] https://github.com/multicom-toolbox/DNCON2/
