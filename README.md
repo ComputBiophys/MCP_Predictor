@@ -11,6 +11,20 @@ One of the unique traits of membrane proteins is that a significant fraction of 
 
 `pip install -r requirements.txt`
 
+### Feature generation
+*Please refer to the file in the fold of example*
+#### Multiple sequence alignment (MSA) generation (https://github.com/soedinglab/hh-suite) (.a3m file)
+#### Input features generation
+1. Input features from RaptorX-Property 
+
+PSSM, SS3, ACC (https://github.com/realbigws/RaptorX_Property_Fast, https://github.com/lacus2009/RaptorX-Angle)  (.feat file)
+
+2. Additional input features for contact map (CM) prediction
+
+CCMpred (https://github.com/soedinglab/CCMpred) (.mat file)
+
+Pairwise potential and mutual information (https://github.com/multicom-toolbox/DNCON2/) (.pai file)
+
 ### Command
 #### Membrane contact probability (MCP) prediction
 `python data2pkl_MCP.py 5aymA`
@@ -31,3 +45,15 @@ Please try to use our server of MCP predictor and MCP-incorporated CM predictor 
 
 ## References
 Wang, L.; Zhang, J.; Wang, D.; Song, C.* Lipid Contact Probability: An Essential and Predictive Character for the Structural and Functional Studies of Membrane Proteins. bioRxiv 2021, https://doi.org/10.1101/2021.01.17.426988
+
+The implementation is based on the projects:
+
+[1] https://github.com/soedinglab/hh-suite
+
+[2] https://github.com/realbigws/RaptorX_Property_Fast
+
+[3] https://github.com/lacus2009/RaptorX-Angle
+
+[4] https://github.com/soedinglab/CCMpred
+
+https://github.com/multicom-toolbox/DNCON2/
