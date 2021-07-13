@@ -26,6 +26,7 @@ One of the unique traits of membrane proteins is that a significant fraction of 
 
 
 ## Server
+Please try to use our server of MCP predictor and MCP-incorporated CM predictor at:
 
 
 ## References
