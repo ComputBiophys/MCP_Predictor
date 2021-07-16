@@ -12,7 +12,7 @@ One of the unique traits of membrane proteins is that a significant fraction of 
 `pip install -r requirements.txt`
 
 ### Feature generation
-*Please refer to the file in the folder of example*
+*Please refer to the files in the folder of example*
 #### Multiple sequence alignment (MSA) generation (https://github.com/soedinglab/hh-suite) (.a3m file)
 #### Input features generation
 1. Input features from RaptorX-Property 
