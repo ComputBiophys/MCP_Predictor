@@ -1,8 +1,11 @@
 # Membrane contact probability (MCP) prediction
 ## Introduction
 
-One of the unique traits of membrane proteins is that a significant fraction of their hydrophobic amino acids is exposed to the hydrophobic core of lipid bilayers rather than being embedded in the protein interior, which is often not explicitly considered in the protein structure and function predictions. Here, we propose a characteristic and predictive quantity, the membrane contact probability (MCP), to describe the likelihood of the amino acids of a given sequence being in direct contact with the acyl chains of lipid molecules. We show that MCP is complementary to solvent accessibility in characterizing the outer surface of membrane proteins, and it can be predicted for any given sequence with a machine learning-based method by utilizing a training dataset extracted from MemProtMD, a database generated from molecular dynamics simulations for the membrane proteins with a known structure. As the first of many potential applications, we demonstrate that MCP can be used to systematically improve the prediction precision of the protein contact maps.
+The membrane contact probability (MCP), a characteristic and predictive quantity to describe the likelihood of the amino acids of a given sequence being in direct contact with the acyl chains of lipid molecules. And it can be predicted with a combination of deep convolutional and recurrent neural network (DCRNN) by utilizing a training dataset extracted from MemProtMD, a database generated from molecular dynamics simulations.
 
+The MCP is complementary to solvent accessibility in characterizing the outer surface of membrane proteins, and can be used to systematically improve the precision of the ResNet-based contact map predictor.
+
+This package provides an implementation of the MCP and MCP-incorporated contact map prediction. 
 
 ## Usage
 ### Requirements
