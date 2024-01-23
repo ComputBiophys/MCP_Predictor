@@ -48,7 +48,7 @@ Please try to use our server of MCP predictor and MCP-incorporated CM predictor 
 http://compute.songgroup.org
 
 ## References
-Wang, L.; Zhang, J.; Wang, D.; Song, C.* Membrane Contact Probability: An Essential and Predictive Character for the Structural and Functional Studies of Membrane Proteins. PLoS Comput. Biol. 2021, 18, e1009972.
+Wang, L.; Zhang, J.; Wang, D.; Song, C.* Membrane Contact Probability: An Essential and Predictive Character for the Structural and Functional Studies of Membrane Proteins. PLoS Comput. Biol. 2022, 18, e1009972.
 
 The implementation is based on the projects:
 
