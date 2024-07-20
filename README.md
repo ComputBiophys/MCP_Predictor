@@ -45,7 +45,7 @@ Pairwise potential and mutual information (https://github.com/multicom-toolbox/D
 ## Server
 Please try to use our server of MCP predictor and MCP-incorporated CM predictor at:
 
-http://compute.songgroup.org
+http://www.songlab.cn/
 
 ## References
 Wang, L.; Zhang, J.; Wang, D.; Song, C.* Membrane Contact Probability: An Essential and Predictive Character for the Structural and Functional Studies of Membrane Proteins. PLoS Comput. Biol. 2022, 18, e1009972.
